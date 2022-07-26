@@ -1,0 +1,85 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    
+}
+
+/* hero background image */
+.bgimage {
+    height:800px;
+    background: url('images/param2.jpg');
+    background-size:cover;
+    border: #079607 solid;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-family: Simplifica;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.hero_desc {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* ABOUT ME HEADING */
+.text-center{
+    font-weight: bold;
+}
+
+
+/* spacing on all sections */
+ #about, #photos, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} 
+ 
+#photos {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+
+/* My Photos */
+
+.text_center{
+    font-weight: bold;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
